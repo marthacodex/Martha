@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+   <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <div class="hero">
+        <nav>
+            <a href="#">Home</a>
+            <a href="about me.html">About Me</a>
+            <a href="#">Projects</a>
+        </nav>
+        <script>
+            // Function to adjust the height of the hero section based on viewport height
+            function adjustHeroHeight() {
+                const hero = document.querySelector('.hero');
+                const viewportHeight = window.innerHeight;
+                hero.style.height = `${viewportHeight}px`;
+            }
+        
+            // Call the function initially and add event listener for window resize
+            adjustHeroHeight();
+            window.addEventListener('resize', adjustHeroHeight);
+
+            
+        </script>
+<div class="container">
+    <img class="profile-picture" src="my pic1.jpg" alt="Profile Picture" height="500px" width="400px">
+    
+    <div class="introduction">
+        <h2>Introduction</h2>
+        <p>Hi there! I'm Martha-Duhu, a passionate web developer with over 5 years of experience. 
+            I love creating beautiful and functional websites.</p>
+    </div>
+    
+    <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML 5</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>phyton</li>
+        </ul>
+    </div>
+    
+    <div class="contact">
+        <h2>Contact Information</h2>
+        <span>Email:</span> marthaduhu03@gmail.com<br>
+        <span>Phone:</span> +234 12345678
+    </div>
+    
+    <div class="optional-section">
+        <h2>Education</h2>
+        <p>Bachelor's Degree in Computer Science, University of Lagos</p>
+        <p> Msc in Software engineering</p>
+    </div>
+</div>
+<div class="optional-section section">
+        <h2>Experience</h2>
+        <p>I have worked as a web developer at Microsoft Company for 3 years,
+             where I led projects to redesign the company's website and improve its performance.
+              I also collaborated with cross-functional teams to develop and deploy web applications.</p>
+    </div>
+    
+    <div class="optional-section section">
+        <h2>Projects</h2>
+        <p>Some of my notable projects include:</p>
+        
+        <div class="project-link">
+            <a href="#">
+                <img src="people.jpeg" alt="Project A" height="400px" width="400px">
+            </a>
+           
+        
+    </div>
+    <div class="project-link">
+        <a href="#">
+            <img src="pixel 1.jpeg" alt="Project B" height="400px" width="400px">
+        
+        </div>
+        <a href="https://example.com">
+            <img src="example-image.jpg" alt="Example Image">
+
+        <div class="project-link">
+            <a href="PROJECT A.HTML">
+                <img src= "hiking pex.jpeg" alt="Project C" height="400px" width="400px">
+                
+                </div>
+
+                <div class="project-link">
+                    <a href="project b.html">
+                    <img src="boxpic.jpeg" alt="project B"  height="400px"  width="400px">
+                    
+
+                </div>
+    
+    
+
+
+</body>
+</html>
